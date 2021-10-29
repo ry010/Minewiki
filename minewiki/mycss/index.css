@@ -1,0 +1,112 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-image: url(../webpics/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.title_button, .subtitle_button {
+    border: red 10px;
+}
+
+.title_img {
+    width: 500px;
+    height: 90px;
+    border: red 10px;
+}
+
+.subtitle_img {
+    width: 450px;
+    height: 30px;
+}
+
+.title_div {
+    text-align: center;
+}
+
+.compass_book {
+    width: 17px;
+    margin-left: 5px;
+}
+
+.Poison{
+    width: 18px;
+    margin-left: 5px;
+}
+
+.steve {
+    width: 17px;
+    margin-left: 5px;
+}
+
+.Gb {
+    width: 25px;
+    margin-left: 5px;
+}
+
+.link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000px;
+    margin-left: 10px;
+    border: 5px solid rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-right: 30px;
+    height: 1px;
+    width: 10em;
+    margin-top: 10px;
+}
+
+.pmc {
+    width: 400px;
+    position: absolute;
+    z-index: 999;
+    margin: 10 auto;
+    top: 300px;
+    bottom: 1px;
+    left: 10px;
+    border-radius: 40px;
+}
+
+.intro {
+    background-image: url(../webpics/mcintroback4.jpg);
+    background-size: cover;
+    padding: 10px;
+    border: none;
+    width: 25em;
+    border-radius: 10px;
+    position: absolute;
+    top: 400px;
+    left: 700px;
+    padding: 40px;
+    color: rgba(206, 203, 203, 0.733);
+}
+
+.username, .password {
+    border-radius: 40px;
+    border: none;
+    transition-duration: 300ms;
+    outline: none;
+}
+
+.username:hover, .password:hover {
+    outline: none;
+    background: rgba(0, 0, 0, 0.253);
+    transition-duration: 300ms;
+}
+.up {
+    margin-bottom: 0;
+}
+
+.uupp {
+    margin-bottom: 10px;
+}   
+
